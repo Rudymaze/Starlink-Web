@@ -1,0 +1,354 @@
+*{
+  margin: 0;
+}
+
+#starlink{
+  width: 100%;
+  height: 800px;
+  background-image: url(/Roam/rv_header_module_desktop\ 1.webp);
+  color: #ffffff;
+  background-repeat: no-repeat;
+  object-position: center;
+  background-size: cover;
+
+}
+
+nav{
+   
+  color: #ffffff;
+  display: flex;
+  text-decoration: none;
+  
+  
+}
+
+nav a{
+  color:#ffffff;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800px;
+}
+
+.right-menu{
+  display: flex;
+  gap: 30px;
+  padding: 50px;
+  font-size: smaller;
+
+}
+
+.left-menu{
+  margin-left: auto;
+  display: flex;
+  gap: 20px;
+  padding: 50px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: smaller;
+  font-family: bold, Arial, Verdana, sans-serif;
+  font-weight: 800px;
+
+}
+
+
+.section{
+  width: 650px;
+  height:420px;
+  text-align: center;
+  padding-bottom: 500px;
+  padding-left: 350px;
+ 
+}
+
+.heading-1{
+  padding-bottom: 16px;
+  font-size: 27px;
+}
+
+.heading-2 p{
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 16px;
+  font-style: normal;
+  font-family: arial, verdana, sans-serif;
+}
+
+.address{
+  padding-top: 275px;
+  gap: 20px;
+}
+
+.address-items input{
+  width: 400PX;
+  height: 40px;
+  color: #b8b8b8;
+  background-color:#b8b8b8;
+  text-emphasis-color:#b8b8b8 ;
+  border-radius: 5px;
+  padding-left: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  background-color: transparent;
+}
+
+.address-items button{
+  width: 200px;
+  height: 45px;
+  border-radius: 5px;
+  margin-left: 20px;
+  background-color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  text-emphasis-color: black;
+
+}
+
+.address-items button:hover{
+  cursor: pointer;
+}
+
+.address-items p{
+  color: #888888;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+span{
+  color: #c5baba;
+  text-decoration: underline;
+  
+}
+
+span:hover{
+  cursor: pointer;
+}
+
+.span-roam a{
+  color: #ffffff;
+}
+
+/*roam-landing*/
+
+.landing{
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  color: #fff;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.landing h2{
+  font-size: 45px;
+  font-stretch: 100%;
+  font-weight: 400px;
+  text-transform: uppercase;
+}
+
+.landing p{
+  font-size: 14px;
+  font-weight: 200px;
+  font-stretch: 100%;
+  line-height: 22px;
+}
+
+/*image-1*/
+
+.landing-page-photo-1 img{
+  height: 600px;
+  width: 100%;
+ 
+}
+
+
+.landing-page-text-1{
+  color: rgb(255, 255, 255);
+  background: #000000;
+ 
+}
+
+.text-h2-1{
+  padding-top: 140px;
+  padding-left: 80px;
+  padding-bottom: 40px;
+
+}
+
+.paragraph-1{
+
+  padding-left: 80px;
+  
+}
+
+/*image 2*/
+
+.landing-page-photo-2 img{
+  height: 600px;
+  width: 100%;
+  
+}
+
+.landing-page-text-2{
+  background: #000000;
+  
+}
+
+.text-h2-2{
+  padding-top: 150px;
+  padding-left: 150px;
+  padding-bottom: 40px;
+
+}
+
+.paragraph-2{
+
+  padding-left: 150px;
+  
+}
+
+/*image3*/
+
+.landing-page-photo-3 img{
+  height: 600px;
+  width: 100%;
+  
+}
+
+.text-h2-3{
+  padding-top: 110px;
+  padding-left: 80px;
+  padding-bottom: 40px;
+
+}
+
+.paragraph-3{
+ padding-left: 80px;
+}
+
+
+.landing-page-text-3{
+  background: #000000;
+  
+}
+
+
+.span-roam-2 a{
+  color: #ffffff;
+}
+
+/*landing page 2*/
+
+.landing-2{
+  background-image: url(/Roam/rv_payasyougo_module_desktop\ 5.webp);
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: center;
+  background-size: cover;
+
+
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+.landing-2-items{
+  padding-top: 180px;
+  padding-left: 10%;
+}
+
+.landing-2 h2{
+  font-size: 45px;
+  font-stretch: 100%;
+  font-weight: 400px;
+  text-transform: uppercase;
+}
+
+.landing-2-text{
+  margin-bottom: 30px;
+}
+
+.landing-2 p{
+  font-size: 14px;
+  font-weight: 200px;
+  font-stretch: 100%;
+  line-height: 22px;
+}
+
+/*landing-4*/
+
+.roam-landing-4{
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  color: #fff;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.roam-landing-img{
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  background-size: cover;
+  
+}
+
+.landing-4 h2{
+  font-size: 45px;
+  font-stretch: 100%;
+  font-weight: 400px;
+  text-transform: uppercase;
+}
+
+.landing-4 p{
+  font-size: 14px;
+  font-weight: 200px;
+  font-stretch: 100%;
+  line-height: 22px;
+}
+
+.landing-4 button{
+  width: 180px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 12px;
+  font-weight: 700px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 2px solid rgb(255, 255, 255);
+  margin-top: 50px;
+ 
+}
+
+.landing button:hover{
+  cursor: pointer;
+}
+
+
+
+.text-h2-4{
+  padding-top: 110px;
+  padding-left: 80px;
+  padding-bottom: 40px;
+
+}
+
+.paragraph-4{
+ padding-left: 80px;
+}
+
+
+.landing-4-text{
+  background: #000000;
+  
+}
+
+
+.button-ios{
+  margin-left: 80px;
+}
+.button-andriod{
+  margin-left: 10px;
+  vertical-align: top;
+}

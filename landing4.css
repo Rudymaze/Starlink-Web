@@ -1,0 +1,67 @@
+.landing-4{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    color: #fff;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.landing-4 img{
+    height: 700px;
+    width: 100%;
+}  
+
+.landing-4-items-1, .landing-4-items-2{
+    color: rgb(255, 255, 255);
+    background: #000000;
+}
+
+.landing-4 h2{
+    font-size: 45px;
+    font-stretch: 100%;
+    font-weight: 400px;
+    text-transform: uppercase;
+}
+
+
+.landing-4 p{
+    font-size: 14px;
+    font-weight: 200px;
+    font-stretch: 100%;
+    line-height: 22px;
+}
+
+.landing-4-items-1{
+    padding-top: 200px;
+    padding-left: 80px;
+
+}
+
+.landing-4-items-2{
+    padding-top: 150px;
+    padding-left: 150px;
+}
+
+.text-4-h2{
+    padding-bottom: 40px;
+}
+
+.landing-4 button{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    border: 2px solid rgb(255, 255, 255);
+    margin-top: 50px;
+    margin-left: 8px;
+    
+}
+
+.landing-4 button:hover{
+    cursor: pointer;
+}

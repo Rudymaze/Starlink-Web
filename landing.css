@@ -1,0 +1,128 @@
+.landing{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    color: #fff;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.landing-page-photo-1 img{
+    height: 600px;
+    width: 100%;
+    
+}
+
+.landing-page-photo-2 img{
+    height: 600px;
+    width: 100%;
+    
+}
+
+.landing-page-photo-3 img{
+    height: 600px;
+    width: 100%;
+    
+}
+
+
+
+
+.landing-page-text-1{
+    color: rgb(255, 255, 255);
+    background: #000000;
+   
+}
+
+.text-h2-1{
+    padding-top: 110px;
+    padding-left: 80px;
+    padding-bottom: 40px;
+
+}
+
+.paragraph-1{
+
+    padding-left: 80px;
+    
+}
+
+.landing-page-text-2{
+    background: #000000;
+    
+}
+
+.text-h2-2{
+    padding-top: 150px;
+    padding-left: 150px;
+    padding-bottom: 40px;
+
+}
+
+.paragraph-2{
+
+    padding-left: 150px;
+    
+}
+
+.button-2{
+    margin-left: 76px;
+}
+
+span{
+    
+    text-decoration: underline;
+}
+
+span:hover{
+    cursor: pointer;
+}
+
+.text-h2-3{
+    padding-top: 110px;
+    padding-left: 80px;
+    padding-bottom: 40px;
+
+}
+
+.paragraph-3{
+   padding-left: 80px;
+}
+
+
+.landing-page-text-3{
+    background: #000000;
+    
+}
+
+.landing h2{
+    font-size: 45px;
+    font-stretch: 100%;
+    font-weight: 400px;
+    text-transform: uppercase;
+}
+
+.landing p{
+    font-size: 16px;
+    font-weight: 200px;
+    font-stretch: 100%;
+    line-height: 22px;
+}
+.landing button{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    border: 2px solid rgb(255, 255, 255);
+    margin-top: 50px;
+    margin-left: 80px;
+    
+}
+
+.landing button:hover{
+    cursor: pointer;
+}
